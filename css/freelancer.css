@@ -1,0 +1,1488 @@
+/*!
+ * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Unica+One);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+body {
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 20px;
+}
+
+p.small {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #000;
+}
+
+a:hover, a:focus {
+
+    text-decoration: none;
+}
+
+
+.redes a:hover {
+
+    opacity:.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+.bodega-02 {
+
+    background-image:url('../img/bodega.jpg');
+    height: 575px;
+    background-size: cover;
+}
+
+.bodega-02 h3 {
+
+    margin: 185px 35px 10px;
+    border-bottom: 1px #fff solid;
+    font-size: 26pt;
+    font-family: 'Unica One', cursive;
+    color: #fff;
+    font-weight: normal;
+}
+
+.bodega-02 p {
+
+    font-family: 'PT Sans', sans-serif !important;
+    color: #fff;
+    font-size: 12.8pt;
+    padding: 0vw 35px 0;
+    margin: 0;
+    text-align: initial;
+    font-weight: normal;
+    width: 65%;
+
+
+}
+
+.footer-banderas h3 {
+
+        color: #fff;
+    font-size: 11.4pt;
+    margin: 0;
+    font-family: 'Unica One', cursive;
+    font-weight:normal;
+}
+
+.footer-banderas h2 {
+
+        color: #fff;
+        font-size: 12.5pt;
+    margin: 5px 0 0;
+    font-family: 'Unica One', cursive;
+    font-weight:normal;
+}
+
+.footer-banderas h2:hover {
+
+    opacity:0.7;
+}
+
+
+.effect-home img {
+
+    -moz-transition: -moz-transform 1500ms ;
+  -o-transition: -o-transform 1500ms ;
+  -webkit-transition: -webkit-transform 1500ms ;
+  transition: transform 1500ms ;
+}
+
+.effect-home img:hover {
+
+    opacity:0.7;
+    background:#000;
+    -moz-transition: -moz-transform 1500ms ;
+  -o-transition: -o-transform 1500ms ;
+  -webkit-transition: -webkit-transform 1500ms ;
+  transition: transform 1500ms ;
+}
+
+
+.box-1:hover,.box-3:hover {
+
+     -moz-transition: -moz-transform 1500ms ;
+  -o-transition: -o-transform 1500ms ;
+  -webkit-transition: -webkit-transform 1500ms ;
+  transition: transform 1500ms ;
+
+    background-color:#c1c1c1;
+
+
+}
+
+.box-2:hover {
+
+     -moz-transition: -moz-transform 1500ms ;
+  -o-transition: -o-transform 1500ms ;
+  -webkit-transition: -webkit-transform 1500ms ;
+  transition: transform 1500ms ;
+
+    background-color:#c1c1c1;
+
+
+}
+
+.box-1 {
+
+    background-color:#e0d6c6;
+    height:467px;
+    text-align:center;
+}
+
+.box-1 h3 {
+
+        margin: 0;
+    padding:4vw 135px 4vw;
+    font-size: 26pt;
+    font-family: 'Unica One', cursive;
+    color: #3c3c3b;
+    font-weight: normal;
+}
+
+.box-1 p {
+
+    font-family: 'PT Sans', sans-serif !important;
+    color: #3c3c3b;
+    font-size: 12.8pt;
+    padding: 0vw 35px 0;
+    margin: 0;
+    text-align: justify;
+    font-weight: normal;
+
+
+}
+
+.box-2 h3 {
+
+        margin: 0;
+    padding: 3vw 115px 3vw;
+    font-size: 24pt;
+    font-family: 'Unica One', cursive;
+    color: #3c3c3b;
+    font-weight: normal;
+}
+
+.box-2 p {
+
+    font-family: 'PT Sans', sans-serif !important;
+    color: #3c3c3b;
+    font-size: 12.8pt;
+    padding: 0vw 35px 0;
+    margin: 0;
+    text-align: justify;
+    font-weight: normal;
+
+
+}
+
+
+.box-3 h3 {
+
+        margin: 0;
+    padding: 4vw 110px 4vw;
+    font-size: 26pt;
+    font-family: 'Unica One', cursive;
+    color: #3c3c3b;
+    font-weight: normal;
+}
+
+.box-3 p {
+
+    font-family: 'PT Sans', sans-serif !important;
+    color: #3c3c3b;
+    font-size: 12.8pt;
+    padding: 0vw 35px 0;
+    margin: 0;
+    text-align: justify;
+    font-weight: normal;
+
+
+}
+
+.box-2 {
+
+    background-color:#b0a69b;
+    height:467px;
+    text-align:center;
+}
+
+
+.box-3 {
+
+    background-color:#dfc5a4;
+    height:467px;
+    text-align:center;
+}
+
+.linea {
+
+        border-right: 2px #6d6d6d solid;
+    width: 100%;
+}
+
+
+.productos-texto {
+
+    border: 2px #485c5c solid;
+        padding: 15px 10px 0;
+}
+
+.productos-texto p {
+
+    color: #3c3c3b;
+     font-family: 'PT Sans', sans-serif !important;
+      margin: 65px 10px 0;
+      font-size:11pt;
+
+    }
+
+.productos-texto h3 {
+     font-family: 'Unica One', cursive;
+    color: #3c3c3b;
+    margin: 0 10px;
+    font-weight: normal;
+    font-size: 25pt;
+    }
+
+.productos-texto h4 {
+    font-family: 'Unica One', cursive;
+    color: #3c3c3b;
+    margin: 0 10px;
+    font-weight: normal;
+    font-size: 17pt;
+        margin: 0 12px !important;
+    }
+.productos-02 h3 {
+
+    font-family: 'Unica One', cursive;
+    color: #3c3c3b;
+    margin: 0 10px;
+    font-weight: normal;
+    font-size: 25pt;
+}
+
+.productos-02 h4 {
+
+    font-family: 'Unica One', cursive;
+    color: #3c3c3b;
+    margin: 0 10px;
+    font-weight: normal;
+    font-size: 17pt;
+        margin: 20px 12px 10px;
+}
+
+.productos-02 ul {
+
+    list-style:none;
+}
+
+
+.syrah {
+
+    color:#7d7464 !important;
+    text-decoration:none;
+}
+
+.syrah a:hover {
+
+    text-decoration:none;
+
+}
+
+
+.productos-02 ul li {
+
+   font-family: 'Unica One', cursive;
+   font-size:17pt;
+}
+
+.productos-02 ul li:hover {
+
+    opacity:.7;
+
+
+    }
+
+
+ .tienda p {
+
+    margin:0;
+     color: #3c3c3b;
+     font-family: 'PT Sans', sans-serif !important;
+      margin: 30px 10px;
+    font-size: 13pt;
+}
+
+ .tienda h3 {
+
+    font-family: 'Unica One', cursive;
+    color: #3c3c3b;
+    margin: 30px 10px;
+    font-weight: normal;
+    font-size: 23pt;
+}
+
+.tienda input, select {
+
+        height: 35px;
+    width: 40%;
+        border: 2px #bbbbbb solid;
+}
+
+.tienda textarea {
+
+ height: 35px;
+    width: 40%;
+        border: 2px #bbbbbb solid;
+
+
+}
+
+.tienda select {
+
+    width: 90%;
+    position: relative;
+    right: 26%;
+}
+
+.tienda button {
+
+
+        background: #4b4b4b;
+    color: #fff;
+    border: transparent;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-family: 'Unica One', cursive;
+    text-transform: uppercase;
+    font-size: 12pt;
+
+
+}
+
+
+.popup-form input, select {
+
+        height: 35px;
+    width: 100%;
+        border: 2px #bbbbbb solid;
+}
+
+.popup-form textarea {
+
+    height: 35px;
+    width: 100%;
+        border: 2px #bbbbbb solid;
+    }
+
+.popup-form select {
+
+    width: 90%;
+    position: relative;
+    right: 26%;
+}
+
+.popup-form button {
+
+
+        background: #4b4b4b;
+    color: #fff;
+    border: transparent;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-family: 'Unica One', cursive;
+    text-transform: uppercase;
+    font-size: 12pt;
+
+
+}
+
+.popup-form h3 {
+
+        color: #000;
+    text-align: left;
+    font-size: 24pt;
+    display: inline-block;
+    margin: 0px 260px 0 0;
+
+
+}
+
+.popup-form h4 {
+
+    margin:0;
+     color: #3c3c3b;
+     font-family: 'Unica One', cursive;
+      margin:10px 0% 0;
+        font-size: 12pt;
+    font-weight: normal;
+    text-align:left;
+
+}
+
+.tienda h4 {
+
+    margin:0;
+     color: #3c3c3b;
+     font-family: 'Unica One', cursive;
+      margin:10px 30% 0;
+        font-size: 15pt;
+    font-weight: normal;
+    text-align:left;
+
+}
+
+
+.tienda h5 {
+
+    margin:0;
+     color: #3c3c3b;
+     font-family: 'Unica One', cursive;
+      margin:10px 62px;
+        font-size: 15pt;
+    font-weight: normal;
+        text-align: right;
+
+}
+
+
+.eventos p {
+
+    margin:0;
+     color: #3c3c3b;
+     font-family: 'PT Sans', sans-serif !important;
+         margin: 50px 30px 0;
+    font-size: 12pt;
+}
+
+ .eventos h3 {
+
+    font-family: 'Unica One', cursive;
+    color: #3c3c3b;
+    margin: 0 10px;
+    font-weight: normal;
+    font-size: 23pt;
+    text-align:left;
+}
+
+ .eventos h4 {
+
+    font-family: 'Unica One', cursive;
+    color: #3c3c3b;
+    margin: 20px 10px 0;
+    font-weight: normal;
+    font-size: 17pt;
+}  
+
+
+.visitas p {
+
+    margin:0;
+     color: #3c3c3b;
+     font-family: 'PT Sans', sans-serif !important;
+      margin: 30px 30px 0;
+    font-size: 13pt;
+}
+
+ .visitas h3 {
+
+    font-family: 'Unica One', cursive;
+    color: #3c3c3b;
+    margin: 0 10px;
+    font-weight: normal;
+    font-size: 23pt;
+        text-align: left;
+}
+
+ .visitas h4 {
+
+    font-family: 'Unica One', cursive;
+    color: #3c3c3b;
+    margin: 20px 10px 0;
+    font-weight: normal;
+    font-size: 17pt;
+}   
+
+.filosofia h3 {
+
+    font-family: 'Unica One', cursive;
+    color: #3c3c3b;
+    margin: 0 10px;
+    font-weight: normal;
+    font-size: 25pt;
+}
+
+.filosofia p {
+
+    margin:0;
+     color: #3c3c3b;
+     font-family: 'PT Sans', sans-serif !important;
+      margin: 40px 10px 0;
+    font-size: 13pt;
+
+}
+
+
+.empresa h3 {
+
+    font-family: 'Unica One', cursive;
+    color: #3c3c3b;
+    margin: 0 10px;
+    font-weight: normal;
+    font-size: 25pt;
+    margin-top: -35px;
+}
+
+.empresa h2 {
+
+  font-family: 'Unica One', cursive;
+    color: #3c3c3b;
+    margin: 30px 10px 0;
+    font-weight: normal;
+    font-size: 15pt;
+}
+
+.empresa p {
+
+    margin:0;
+     color: #3c3c3b;
+     font-family: 'PT Sans', sans-serif !important;
+      margin: 40px 10px 0;
+    font-size: 13pt;
+
+}
+
+.empresa-textos p {
+
+
+       margin:0;
+     color: #3c3c3b;
+    font-family: 'PT Sans', sans-serif !important;
+    margin: 20px 100px 0;
+    font-size: 11.4pt;
+    border-left: 3px #9d9e95 solid;
+    padding: 0px 25px;
+    line-height: 2;
+
+
+}
+
+
+.carousel-indicators .active {
+
+    width: 15px;
+    height: 15px;
+    background-color: #c9c8c6;
+
+}
+
+.carousel-indicators li {
+
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: #86837d;
+
+
+}
+
+.carousel-indicators {
+
+    left:90%;
+}
+
+.navbar {
+
+    margin-bottom:0;
+}
+
+.navbar-default {
+
+    background-color:transparent!important;
+}
+
+.navbar-default .navbar-brand {
+
+    color:#000;
+        border: 4px #000 solid;
+   
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+
+
+    color: #000000;
+     background-color:transparent;
+    font-weight: bold;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+
+    color:#fff !important;
+    background-color:transparent !important;
+}
+
+.nav>li>a {
+
+    font-family: 'Unica One', cursive;
+    color:#cbbba0;
+        font-size: 12pt;
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+
+
+color:#cbbba0;
+
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+
+
+        color: #aba69f;
+
+
+}
+
+.navbar-brand {
+
+        float: left;
+    padding: 15px 20px;
+    font-size: 19px;
+    line-height: 21px;
+    height: inherit;
+
+
+}
+
+.navbar-right {
+
+	margin-top:15px; 
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+
+    color:#000;
+     font-weight: 300;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #18bc9c;
+}
+
+hr.star-primary {
+    border-color: #2c3e50;
+}
+
+hr.star-primary:after {
+    color: #2c3e50;
+    background-color: #fff;
+}
+
+.navbar-inverse {
+
+    background-color: #1d1d1b;
+}
+
+.navbar {
+    border-radius:inherit !important;
+}
+
+.navbar-nav {
+    float: right;
+    margin: 25px 0;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background: #18bc9c;
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
+}
+
+@media(min-width:768px) {
+    .navbar-fixed-top {
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.navbar a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+}
+
+section {
+    padding: 100px 0;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+section.success {
+    color: #fff;
+    background: #18bc9c;
+}
+
+section.success a,
+section.success a:hover,
+section.success a:focus,
+section.success a:active,
+section.success a.active {
+    outline: 0;
+    color: #2c3e50;
+}
+
+@media(max-width:767px) {
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+}
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(202, 202, 202, 0.53);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+    margin: 0;
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #18bc9c;
+    background: #fff;
+}
+
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #eee;
+}
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+}
+
+.floating-label-form-group label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease,opacity .3s ease;
+    -moz-transition: top .3s ease,opacity .3s ease;
+    -ms-transition: top .3s ease,opacity .3s ease;
+    transition: top .3s ease,opacity .3s ease;
+}
+
+.floating-label-form-group::not(:first-child) {
+    padding-left: 14px;
+    border-left: 1px solid #eee;
+}
+
+.floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1;
+}
+
+.floating-label-form-group-with-focus label {
+    color: #18bc9c;
+}
+
+form .row:first-child .floating-label-form-group {
+    border-top: 1px solid #eee;
+}
+
+.footer p {
+
+
+    font-family: 'Unica One', cursive !important;
+    font-size:12pt;
+    color:#000;
+        margin: 25px 0;
+
+
+}
+
+footer {
+    color: #fff;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+}
+
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #2c3e50;
+}
+
+footer .footer-col {
+    margin-bottom: 50px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #233140;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.scroll-top .btn:focus {
+    outline: 0;
+}
+
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content .item-details {
+    margin: 30px 0;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #2c3e50;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+   @media(max-width:1024px) {
+
+
+    .empresa h3 {
+
+        margin-top:0;
+    }
+
+    .visitas p {
+
+        margin:30px 0px 0;
+    }
+
+    }
+
+
+@media(max-width:768px) {
+
+
+    .visitas h3 {
+
+
+        font-size:16pt;
+    }
+
+
+    .visitas img {
+
+            margin: 40px 35px 0 !important;
+    }
+
+    .visitas p {
+
+        margin:0;
+    }
+
+    .box-1 {
+
+        height:490px;
+    }
+
+    .box-1 h3 {
+
+        padding: 4vw 70px 4vw;
+    }
+
+
+     .box-2 {
+
+        height:490px;
+    }
+
+    .box-2 h3 {
+
+        padding: 4vw 70px 4vw;
+    }
+
+    .box-2 img {
+
+        margin-top:40px !important;
+    }
+
+
+     .box-3 {
+
+        height:490px;
+    }
+
+
+    .box-3 img {
+
+        margin-top:10px !important;
+    }
+
+
+    .box-3 h3 {
+
+        padding: 4vw 40px 4vw;
+    }
+
+
+    .bodega-02 h3 {
+
+
+    margin: 140px 35px 10px;
+
+
+    }
+
+    }
+
+
+    @media(max-width:425px) {
+
+
+        .eventos p {
+
+            margin:50px 0px 0;
+        }
+
+
+        .visitas h3 {
+    font-size: 23pt;
+}
+
+
+        .almuerzo-box {
+
+
+              height:inherit !important; 
+    border-bottom: 1px #504f4e solid;
+    padding: 0px 0 20px;
+    text-align: center;
+        border-right: transparent !important;
+
+
+        } 
+
+
+        .almuerzo-box  img {
+
+            width:35% !important;
+        }
+
+
+.popup > div {
+
+    padding:0;
+}
+
+
+.popup-form textarea {
+
+    height:30px !important;
+}
+
+.popup-form button {
+
+    margin:0;
+}
+         .popup-form {
+
+            padding:0 !important;
+         }
+
+
+        .popup-form input, select {
+
+            height:30px;
+        }
+
+        .popup-form h3 {
+
+
+                margin: 0px 30px 0 0;
+                    font-size: 20pt;
+        }
+
+        .popup-form h4 {
+
+            font-size:11pt;
+        }
+
+
+        .tienda h5 {
+
+            text-align: left;
+                margin: 0px 0px 0;
+        }
+
+        .tienda select {
+
+            right:0;
+            width:100%;
+
+        }
+
+
+        .tienda h4 {
+
+
+            margin: 10px 0 0;
+        }
+
+        .tienda input, select {
+
+            width:100%;
+        }
+
+        .tienda-acomodar {
+
+            right:0 !important;
+        }
+
+        .tienda textarea {
+
+            width:100%;
+        }
+
+
+        .borde-bottom {
+
+
+                border-right: transparent !important;
+    border-bottom: 1px #504f4e solid;
+    padding: 0px 0 20px;
+
+
+        }
+
+        .visitas img {
+
+                margin: 40px 100px 0 !important;
+        }
+
+         .visitas p {
+
+        margin:30px 0 0 ;
+    }
+
+
+
+        .empresa-textos p {
+
+            margin:20px 0px 0;
+        }
+
+
+        .bodega-02 h3 {
+    margin: 110px 35px 10px;
+}
+
+.bodega-02 p {
+
+    width:100%;
+}
+
+.box-1 {
+
+    height:390px;
+}
+
+.box-1 img {
+
+    margin-top:45px !important;
+
+    }
+
+.box-2 {
+
+    height:390px;
+}
+
+.box-3 {
+
+    height:390px;
+}
+
+        .carousel-indicators {
+
+            width:inherit;
+        }
+
+        button {
+
+            width:100%;
+        }
+
+        .container-fluid {
+
+            text-align:center;
+        }
+
+        .navbar-nav {
+
+            float:none;
+        }
+
+        .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+
+            display:inline-block;
+        }
+
+        .redes-div {
+
+            float:none !important;
+        }
+
+        .redes{
+
+            text-align:center;
+        }
+
+    }
+
+       @media(max-width:375px) { 
+
+
+        .visitas img {
+    margin: 40px 80px 0 !important;
+}
+
+
+        .bodega-02 h3 {
+    margin: 50px 35px 10px;
+}
+       
+
+       } 
+
+
+          @media(max-width:320px) { 
+
+
+            .visitas img {
+    margin: 40px 50px 0 !important;
+}
+
+
+            .box-1 {
+    height: 455px;
+}
+
+.box-2 {
+    height: 455px;
+}
+
+.box-3 {
+    height: 455px;
+}
+
+
+            .bodega-02 h3 {
+    margin: 35px 35px 10px;
+}
+
+.bodega-02 p {
+
+    font-size:12pt;
+}
+
+          }
+
